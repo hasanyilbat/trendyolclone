@@ -3,7 +3,7 @@ import React from "react";
 const MenuBar = () => {
   return (
     <div className="relative">
-      <div className="w-[1200px] mx-auto flex gap-6">
+      <div className="w-[1200px] mx-auto flex gap-6 h-10">
         <a
           href=""
           className="text-sm font-semibold p-2  hover:border-orange-500 hover:border-b-4 hover:text-orange-500 z-10 "

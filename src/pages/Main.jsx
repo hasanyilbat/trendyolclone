@@ -1,7 +1,8 @@
 import React from "react";
 import TopBar from "../components/navbar/TopBar";
 import MainBar from "../components/navbar/MainBar";
-import MenuBar from "../components/MenuBar";
+import MenuBar from "../components/navbar/MenuBar";
+
 const Main = () => {
   return (
     <div>

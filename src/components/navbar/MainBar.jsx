@@ -4,6 +4,7 @@ import { BsSearch } from "react-icons/bs";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoHeartOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
+import GirisYap from "./GirisYap";
 
 const MainBar = () => {
   return (
@@ -25,18 +26,27 @@ const MainBar = () => {
         </span>
       </div>
       <div className="flex">
-        <button className="flex p-2 justify-center items-center hover:text-orange-600">
-          <IoPersonOutline style={{ fontSize: "1.1rem" }} />
-          <p className="text-sm font-semibold ml-2 ">Giriş Yap</p>
-        </button>
-        <button className="flex p-2 justify-center items-center hover:text-orange-600 ">
-          <IoHeartOutline style={{ fontSize: "1.1rem" }} />
-          <p className="text-sm font-semibold ml-2">Favorilerim</p>
-        </button>
-        <button className="flex p-2 justify-center items-center hover:text-orange-600">
-          <IoCartOutline style={{ fontSize: "1.1rem" }} />
-          <p className="text-sm font-semibold ml-2">Sepetim</p>
-        </button>
+        <div>
+          <button className="flex p-2 justify-center items-center hover:text-orange-600 group">
+            <IoPersonOutline style={{ fontSize: "1.1rem" }} />
+            <p className="text-sm font-semibold ml-2">Giriş Yap</p>
+            <div className="relative hidden group-hover:block z-20">
+              <GirisYap />
+            </div>
+          </button>
+        </div>
+        <div>
+          <button className="flex p-2 justify-center items-center hover:text-orange-600 ">
+            <IoHeartOutline style={{ fontSize: "1.1rem" }} />
+            <p className="text-sm font-semibold ml-2">Favorilerim</p>
+          </button>
+        </div>
+        <div>
+          <button className="flex p-2 justify-center items-center hover:text-orange-600">
+            <IoCartOutline style={{ fontSize: "1.1rem" }} />
+            <p className="text-sm font-semibold ml-2">Sepetim</p>
+          </button>
+        </div>
       </div>
     </div>
   );
