@@ -1,1 +1,14 @@
+.underlineHover a:hover {
+  color: orange;
+  text-decoration: underline;
+}
 
+.carousel-style img {
+  border: 2px solid lightgray;
+  outline: 2px solid lightgray;
+  outline-offset: 2px;
+}
+
+.carousel-style img:hover {
+  outline-color: orange;
+}
