@@ -3,59 +3,90 @@ import guess from "../../assets/guess.png";
 
 const Corousel = () => {
   return (
-    <div className="carousel w-[1200px] mx-auto h-20 carousel-style z-0">
+    <div className="carousel w-[1300px] mx-auto h-28 carousel-style z-0 m-3">
       <div id="slide3" className="carousel-item relative w-full z-0">
         <div className="absolute left-12 top-2">
           <div className="cursor-pointer flex flex-row gap-16 bg-white">
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center items-center gap-y-2">
               <img
                 src={guess}
                 alt=""
                 className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
               />
-              <p>Guess</p>
+              <p className="font-semibold text-sm text-center">Guess</p>
             </div>
-
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
-            <img
-              src={guess}
-              alt=""
-              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-            />
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-y-2">
+              <img
+                src={guess}
+                alt=""
+                className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+              />
+              <p className="font-semibold text-sm text-center">Guess</p>
+            </div>
           </div>
         </div>
 
@@ -71,51 +102,78 @@ const Corousel = () => {
           <a href="#slide1">❯</a>
         </div>
         <div className="cursor-pointer flex flex-row gap-16 absolute left-12 top-2">
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
-          <img
-            src={guess}
-            alt=""
-            className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
-          />
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-y-2">
+            <img
+              src={guess}
+              alt=""
+              className="bg-cover bg-center h-16 w-16 rounded-full object-filled"
+            />
+            <p className="font-semibold text-sm text-center">Guess</p>
+          </div>
         </div>
       </div>
     </div>
